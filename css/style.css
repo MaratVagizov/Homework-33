@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+
+.container {
+    margin: 20px auto;
+    width: 1008px;
+    /* background-color: royalblue; */
+}
+
+.part-1 {
+    margin-bottom: 24px;
+}
+
+.top-txt {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.part-2 {
+    margin-bottom: 63px;
+}
+
+.bot-txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.part-3 {
+    margin-bottom: 59px;
+    display: flex;
+    justify-content: center;
+}
+
+.part-3-right-model {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.part-3-right-color {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0071E3;
+}
+
+.part-3-right-cost {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.part-4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 39px;
+}
+
+.btncolor {
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 11px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.btn-grey {
+    background: #CFE7FF;
+    color: #797979;
+    transition: 1s;
+}
+
+.btn-white {
+    background: #0071E3;
+    color: white;
+    transition: 1s;
+}
+
+.part-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 20px 0 20px;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus_cost {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.active {
+    border: 2px solid #007FFF;
+}
